@@ -1,47 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planets</title>
-    <style>
-        body {
-            background: rgb(10, 1, 43);
-            color: white;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-
-        .image-container {
-          width: 200px;
-          height: 300px;
-          border: 1px solid white;
-          background: black;
-        }
-
-        .image-container img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          object-position: 80% 100%;
-          display: block;
-          background: rgb(28, 2, 68);
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Solar System</title>
+<h1><i>The Solar System</i></h1>
+  <style>
+    h1 {
+      text-align: center;
+      line-height: 100px;
+      color: white;
+      height: 100px;
+    }
+    body {
+      font-family: cascadia codeSemi-bold, monospace;
+      background-color: #0f0718;
+      margin: 0;
+      padding: 0;
+    }
+    .mercury-image {
+      position: absolute;
+      bottom: 110px;
+      right: 15px;
+      width: 250px;
+      height: 285px;
+      object-fit: cover;
+    }
+    
+    .venus-section {
+      position: relative;
+    }
+    .earth-section {
+      position: relative;
+    }
+    .mars-section {
+      position: relative;
+    }
+.city {
+  background-color: rgb(4, 3, 57);
+  color: white;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 90px;
+}
+</style>
 </head>
 <body>
-    <h1>Celestial Bodies</h1>
-    <hr>
-    <h2>The Planets are 8 in our Solar System</h2>
-    <hr>
-    <ul>
-        <li>Mercury</li>
-        <div class="image-container">
-            <img src="c:\Users\LX\Downloads\Mercury-removebg-preview.png" alt="Mercury">
-        </div>
-        <hr>
-        
-    </ul>
+
+<div class="city mercury-section">
+<h2>Mercury</h2>
+<p>Mercury is the smallest planet in our solar system.</p>
+<img class="mercury-image" src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg" alt="Mercury">
+</div> 
+
+<div class="city venus-section">
+<h2>Venus</h2>
+<p>Venus is the second planet from the Sun.<br> It is often called Earth's "sister planet."</p>
+</div>
+
+<div class="city earth-section">
+<h2>Earth</h2>
+<p>Earth is the third planet from the Sun.<br> It is the only astronomical object known to harbor life.</p>
+</div>
+
+<div class="city mars-section">
+<h2>Mars</h2>
+<p>Mars is the fourth planet from the Sun.<br> It is often called the "Red Planet."</p>
+</div>
+
+<div class="city jupiter-section">
+<h2>Jupiter</h2>
+<p>Jupiter is the fifth planet from the Sun.<br> It is the largest in our solar system.</p>
+</div>
+
+<div class="city saturn-section">
+<h2>Saturn</h2>
+<p>Saturn is the sixth planet from the Sun.<br> It is known for its prominent ring system.</p>
+</div>
+
+<div class="city uranus-section">
+<h2>Uranus</h2>
+<p>Uranus is the seventh planet from the Sun.<br> It has a unique sideways rotation.</p>
+</div>
+
+
+
+
 </body>
 </html>
